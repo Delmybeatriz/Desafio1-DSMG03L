@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="margen_pantalla">24dp</dimen>
+    <dimen name="margen_campo">16dp</dimen>
+    <dimen name="padding_resultado">16dp</dimen>
+    <dimen name="texto_titulo">22sp</dimen>
+    <dimen name="texto_normal">16sp</dimen>
+</resources>

@@ -1,0 +1,53 @@
+<resources>
+    <string name="app_name">Desafio Practico 1 Android y Kotlin</string>
+    <string name="menu_titulo">Desafío Práctico 1</string>
+    <string name="btn_ejercicio1">Ejercicio 1: Promedio</string>
+    <string name="btn_ejercicio2">Ejercicio 2: Salario</string>
+    <string name="btn_ejercicio3">Ejercicio 3: Calculadora</string>
+    <!-- Ejercicio 1: Promedio -->
+    <string name="titulo_promedio">Promedio del Estudiante</string>
+    <string name="hint_nombre">Nombre del estudiante</string>
+    <string name="hint_nota">Nota (0-10)</string>
+    <string name="hint_ponderacion">Ponderación (%)</string>
+    <string name="btn_calcular_promedio">Calcular Promedio</string>
+    <string name="error_campo_vacio">Este campo es obligatorio</string>
+    <string name="error_nota_invalida">La nota debe estar entre 0 y 10</string>
+    <string name="error_ponderacion_invalida">Ingrese un valor de ponderación válido</string>
+    <string name="error_suma_ponderaciones">Las ponderaciones deben sumar 100%</string>
+    <string name="resultado_aprobado">✅ Aprobado</string>
+    <string name="resultado_reprobado">❌ Reprobado</string>
+    <string name="notif_canal_nombre">Resultados</string>
+    <string name="notif_titulo">Resultado del Promedio</string>
+    <!-- Ejercicio 2: Salario -->
+    <string name="titulo_salario">Descuentos al Salario</string>
+    <string name="hint_nombre_empleado">Nombre del empleado</string>
+    <string name="hint_salario_base">Salario base ($)</string>
+    <string name="btn_calcular_salario">Calcular Descuentos</string>
+    <string name="error_salario_invalido">El salario debe ser un valor positivo</string>
+    <string name="label_salario_bruto">Salario Bruto:</string>
+    <string name="label_renta">Descuento Renta:</string>
+    <string name="label_afp">Descuento AFP (7.25%%):</string>
+    <string name="label_isss">Descuento ISSS (3%%):</string>
+    <string name="label_salario_neto">Salario Neto:</string>
+    <!-- Ejercicio 3: Calculadora -->
+    <string name="titulo_calculadora">Calculadora Básica</string>
+    <string name="hint_num1">Primer número</string>
+    <string name="hint_num2">Segundo número</string>
+    <string name="btn_suma">Suma</string>
+    <string name="btn_resta">Resta</string>
+    <string name="btn_multiplicacion">Multiplicación</string>
+    <string name="btn_division">División</string>
+    <string name="btn_potencia">Exponente</string>
+    <string name="btn_raiz">Raíz √</string>
+    <string name="error_num_invalido">Ingrese un número válido</string>
+    <string name="error_division_cero">No se puede dividir entre cero</string>
+    <string name="error_raiz_negativa">No existe raíz cuadrada real de un número negativo</string>
+    <string name="label_resultado">Resultado:</string>
+    <string name="btn_ver_historial">Ver Historial</string>
+    <string name="btn_exportar_historial">Exportar Historial</string>
+    <string name="historial_titulo">Historial de Operaciones</string>
+    <string name="historial_vacio">Aún no hay operaciones registradas</string>
+    <string name="historial_exportado_ok">Historial exportado a Descargas correctamente</string>
+    <string name="historial_exportado_error">Ocurrió un error al exportar el historial</string>
+    <string name="permiso_denegado_storage">Se necesita permiso de almacenamiento para exportar</string>
+</resources>
