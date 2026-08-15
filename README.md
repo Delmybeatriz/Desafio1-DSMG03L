@@ -12,7 +12,6 @@ Aplicacion Android desarrollada en Kotlin para resolver los ejercicios del desaf
 - Notificaciones de resultados.
 
 ## Tecnologias
-
 - Kotlin
 - Android
 - Gradle
@@ -30,6 +29,10 @@ Aplicacion Android desarrollada en Kotlin para resolver los ejercicios del desaf
 La version instalable de la aplicacion se encuentra en:
 
 `releases/DesafioPractico1.apk`
+
+## Material adicional
+
+[Ver material adicional en Google Drive](https://drive.google.com/file/d/1XkWlzWlsZC6e2qjx8ZAy8KWEJ4MkalHl/view?usp=drivesdk)
 
 ## Autor
 
