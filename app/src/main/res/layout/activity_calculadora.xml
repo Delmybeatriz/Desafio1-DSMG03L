@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="@dimen/margen_pantalla">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/titulo_calculadora"
+            android:textSize="@dimen/texto_titulo"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/etNum1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/hint_num1"
+            android:inputType="numberDecimal|numberSigned"
+            android:layout_marginTop="@dimen/margen_campo" />
+
+        <EditText
+            android:id="@+id/etNum2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/hint_num2"
+            android:inputType="numberDecimal|numberSigned"
+            android:layout_marginTop="8dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="16dp">
+
+            <Button
+                android:id="@+id/btnSuma"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/btn_suma"
+                android:drawableTop="@drawable/ic_suma"
+                android:textSize="12sp" />
+
+            <Button
+                android:id="@+id/btnResta"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/btn_resta"
+                android:drawableTop="@drawable/ic_resta"
+                android:textSize="12sp" />
+
+            <Button
+                android:id="@+id/btnMultiplicacion"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/btn_multiplicacion"
+                android:drawableTop="@drawable/ic_multiplicacion"
+                android:textSize="12sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="8dp">
+
+            <Button
+                android:id="@+id/btnDivision"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/btn_division"
+                android:drawableTop="@drawable/ic_division"
+                android:textSize="12sp" />
+
+            <Button
+                android:id="@+id/btnPotencia"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/btn_potencia"
+                android:drawableTop="@drawable/ic_potencia"
+                android:textSize="12sp" />
+
+            <Button
+                android:id="@+id/btnRaiz"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/btn_raiz"
+                android:drawableTop="@drawable/ic_raiz"
+                android:textSize="12sp" />
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/tvResultadoCalc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:background="@color/fondo_resultadon2"
+            android:padding="@dimen/padding_resultado"
+            android:layout_marginTop="24dp" />
+
+        <Button
+            android:id="@+id/btnVerHistorial"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/btn_ver_historial"
+            android:layout_marginTop="24dp" />
+
+        <Button
+            android:id="@+id/btnExportarHistorial"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/btn_exportar_historial"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="24dp" />
+
+    </LinearLayout>
+</ScrollView>
